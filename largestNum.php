@@ -21,7 +21,7 @@ function largest(){
       $message = $temp;
     }
     elseif (($n1 == $n2 && $n3 < $n1) || ($n1 == $n3 && $n2 < $n1) ||($n3 == $n2 && $n3 > $n1)) {
-      $temp = "This number is entered twice.";
+      $temp = "you  entered this number twice.";
       $message = $message."<br />".$temp;
     }
 
